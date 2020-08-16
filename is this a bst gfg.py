@@ -8,4 +8,4 @@ def checkBST(root, Min, Max):
         return True
     if root.data <= Min or root.data >= Max:
         return False
-    return checkBST(root.left, Min, root.data) and checkBST(root.right, root.data, Max
+    return checkBST(root.left, Min, root.data) and checkBST(root.right, root.data, Max)
